@@ -1,0 +1,20 @@
+[package]
+name = "helloworld"
+version = "0.1.0"
+authors = ["Yushi OMOTE <yushiomote@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+x86_64 = "0.12"
+linked_list_allocator = "0.8"
+log = { version = "0.4", default-features = false }
+rand = { version = "0.6", default-features = false }
+bootloader = { path = "bootloader", features = ["map_physical_memory"] }
+com_logger = "0.1"
+serde = { version = "1.0", default-features = false, features = ["derive"] }
+serde-json-core = "0.1"
+vga = "0.2.5"
+fonts = { path = "fonts" }
+pc-keyboard = "0.5"
+
+
