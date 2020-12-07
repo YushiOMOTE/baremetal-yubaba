@@ -1,5 +1,7 @@
 # Bare-metal YUBABA
 
+![demo](https://raw.github.com/wiki/YushiOMOTE/baremetal-yubaba/yubaba.gif)
+
 ### Build
 
 Install dependencies.
